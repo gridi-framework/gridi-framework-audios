@@ -1,7 +1,7 @@
 # Gridi Framework Audios
 
 ## Install
-`brew install gridi-framework-audios`
+`bower install gridi-framework-audios`
 
 ## Licence
 
