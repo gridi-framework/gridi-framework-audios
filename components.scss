@@ -1,0 +1,10 @@
+audio {
+    display: $audio-display;
+    max-width: $audio-max-width;
+    vertical-align: $audio-vertical-align;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}

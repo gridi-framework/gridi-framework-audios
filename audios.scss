@@ -1,10 +1,2 @@
-audio {
-    display: inline-block;
-    max-width: 100%;
-    vertical-align: baseline;
-}
-
-audio:not([controls]) {
-    display: none;
-    height: 0;
-}
+@import 'config';
+@import 'components';
