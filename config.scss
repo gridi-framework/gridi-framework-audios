@@ -1,3 +1,4 @@
 $audio-display: inline-block !default;
 $audio-max-width: 100% !default;
 $audio-vertical-align: baseline !default;
+@mixin audio-extra-style() {}
