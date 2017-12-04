@@ -2,7 +2,9 @@ audio {
     display: $audio-display;
     max-width: $audio-max-width;
     vertical-align: $audio-vertical-align;
-    @include audio-extra-style();
+    @if mixin-exists(audio-extra-style) {
+        @include audio-extra-style();
+    }
 }
 
 audio:not([controls]) {
